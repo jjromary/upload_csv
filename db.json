@@ -1,9 +1,21 @@
 {
   "contacts": [
-    {
-      "id": "1",
-      "nome": "jose",
-      "author": "719999999999"
-    }
+    [
+      {
+        "id": 1,
+        "nome": "John Doe",
+        "telefone": "(51)9827493"
+      },
+      {
+        "id": "2",
+        "nome": "Luis Inácio",
+        "telefone": "9388409"
+      },
+      {
+        "id": "3",
+        "nome": "Dilma R",
+        "telefone": "983898982"
+      }
+    ]
   ]
 }

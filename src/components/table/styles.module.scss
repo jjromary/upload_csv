@@ -1,0 +1,40 @@
+.Container {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 3.75rem;
+
+
+    .TableContent {
+        width: 100%;
+        padding: 0 3rem;  
+        
+        th {
+            border-radius: 0.2rem;
+            height: 2rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            background-color: #00CDCD;
+            opacity: 0.8;        
+        }
+
+        td {
+            border-radius: 0.2rem;
+            height: 2rem;
+            font-weight: 600;
+            color: var(--gray-900);
+            background-color:#eba417;
+            text-align: center;
+        }
+    }
+
+    .buttonContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .button {
+            border-radius: 0.3rem;
+            width: 45%;
+        }
+    }
+}
