@@ -10,10 +10,8 @@ export function DragDrop() {
 
   useEffect(() => {
     if (contacts.length > 0) {
-      axios.post(
-        "https://6209974e6df46f0017f4c555.mockapi.io/api/v1/contacts",
-        contacts
-      );
+      axios.post("http://localhost:5000/contacts", contacts);
+      console.log("contacts", contacts)
     } else {
     }
   }, [contacts]);
@@ -42,16 +40,15 @@ export function DragDrop() {
               const text = await file.text();
               const result = parse(text, { header: true });
               result.data.id = Number();
-              console.log(typeof result.data[0].id);
 
               setContacts((existing) => [...existing, ...result.data]);
             });
         }}
       >
-        <span>Drop your csv file here 😁</span>
+        <span>Solte o seu arquivo CSV aqui 😁</span>
       </div>
 
-      <DataTable contato={contacts} />
+      <DataTable />
     </>
   );
 }
