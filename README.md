@@ -13,9 +13,7 @@
 ## 💻 Sobre o projeto
 
  - Proposta: Desenvolver uma aplicação web para fazer upload de arquivos .CVS e que suas informações sejam listadas em tela lembrando o Excel.
- - Desenvolvido para o Desafio Desenvolvedor Front end (Reactjs)
  
-
 
 ## 🛠 Tecnologias
 
